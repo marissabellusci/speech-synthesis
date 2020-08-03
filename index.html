@@ -40,7 +40,7 @@ msg.text = document.querySelector('[name="text"]').value;
 console.log(msg.text);
 
 function populateVoices(){
-    voices = this.getVoices();
+    voices = speechSynthesis.getVoices();
     console.log(voices);
     const voiceOptions = voices
     .filter(voice => voice.lang.includes('en'))
