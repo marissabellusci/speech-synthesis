@@ -41,13 +41,13 @@ html {
     width: calc(100% + 4rem);
     margin: -2rem 0 2rem -2rem;
     padding: .5rem;
-    background: #ffc600;
-    border-bottom: 5px solid #F3C010;
+    background: #f3b5e3;
+    border-bottom: 5px solid #f31094;
     text-align: center;
     font-size: 5rem;
     font-weight: 100;
     font-family: 'Pacifico', cursive;
-    text-shadow: 3px 3px 0 #F3C010;
+    text-shadow: 3px 3px 0 #f31094;
   }
   
   .voiceinator input,
@@ -69,18 +69,19 @@ html {
   }
   
   input[type="select"] {
+      border: none;
   
   }
   
   .voiceinator button {
-    background: #ffc600;
+    background: #00ffbf;
     border: 0;
     width: 49%;
     float: left;
     font-family: 'Pacifico', cursive;
     margin-bottom: 0;
     font-size: 2rem;
-    border-bottom: 5px solid #F3C010;
+    border-bottom: 5px solid #02be8f;
     cursor: pointer;
     position: relative;
   }
